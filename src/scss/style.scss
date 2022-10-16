@@ -1,0 +1,24 @@
+@import "fonts";
+
+
+body{
+    background: url('@img/sea-lion-g2494278dc_640.jpg');
+    background-size: cover;
+    font-family:impact2;
+    span{
+        color: red;
+    }
+    // background: url("@img/sea-lion-g2494278dc_640.jpg") 0 0 no-repeat;
+}
+
+@media (max-width: 768px){
+    span{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        background-color: aquamarine;
+    }
+}
